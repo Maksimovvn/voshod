@@ -1,0 +1,25 @@
+{
+    "name": "voshod",
+    "description": "voshod Ural Opera Balet",
+    "type": "test",
+    "license": "tesr",
+    "authors": [
+        {
+            "name": "maksimovvn",
+            "email": "maksimovvn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		
+	    "maksimovvn/voshod":"@dev"
+	  
+	},
+	
+	"repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/maksimovvn/voshod"
+        }
+    ]
+}

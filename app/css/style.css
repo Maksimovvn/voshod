@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Qanelas-Bold";
+  src: url("../fonts/Qanelas-Bold.otf");
+  font-family: "Qanelas-SemiBold";
+  src: url("../fonts/Qanelas-SemiBold.otf"); }
+
+body {
+  background-color: grey; }
+
+.wrapper {
+  width: 1600px;
+  margin: 0 auto; }
+
+header {
+  background-image: url("../img/bg__header_1600.jpg");
+  height: 900px; }
+
+.top {
+  margin: 25px; }
+
+#logo {
+  float: left; }
+
+nav ul {
+  margin: 0;
+  padding: 10px;
+  list-style: none; }
+
+nav a {
+  padding: 25px 425px;
+  font-family: Qanelas-SemiBold, serif;
+  color: white;
+  text-decoration: none; }
+
+nav .options {
+  display: inline-block; }
+
+section {
+  border: 1px lime;
+  margin-top: 900px;
+  background-image: url("../img/bg__content_1600.jpg"); }
+
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 787px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  /**/ }
+
+@media only screen and (max-width: 400px) {
+  /**/ }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
